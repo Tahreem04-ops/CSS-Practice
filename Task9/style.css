@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+details {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 15px auto;
+    width: 60%;
+}
+summary {
+    font-weight: bold;
+    color: darkred;
+    cursor: pointer;
+}
+p {
+    margin-top: 10px;
+    color: #333;
+}

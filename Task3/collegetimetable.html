@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Timetable</title>
+<style>
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+h1 {
+            color: darkblue;
+        }
+
+table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+caption {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: darkblue;
+        }
+
+th {
+            background-color: darkblue;
+            color: white;
+            padding: 12px;
+        }
+
+td {
+            padding: 12px;
+            border: 1px solid gray;
+        }
+
+tr:hover {
+            background-color: #f1f1f1;
+        }
+
+.break {
+            background-color: lightgray;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>College Timetable</h1>
+    <table border="1">
+        <caption>Weekly Class Schedule</caption>
+        <tr>
+            <th>Day</th>
+            <th>9:00-10:00</th>
+            <th>10:00-11:00</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>HTML</td>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>JavaScript</td>
+            <td>Java</td>
+        </tr>
+        <tr class="break">
+            <td colspan="3">Lunch Break</td>
+        </tr>
+    </table>
+
+</body>
+</html>
